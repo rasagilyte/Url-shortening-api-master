@@ -400,14 +400,24 @@ footer .links-column {
     display: block;
   }
 
+  footer {
+    display: block;
+  }
+
   footer .content-wrapper {
     display: flex;
-    gap: 116px;
+    /* gap: 116px; */
     justify-content: space-between;
   }
 
   footer .links-container {
     display: flex;
+    margin-right: 200px;
+  }
+
+  footer .links-column {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   footer .logo {
